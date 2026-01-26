@@ -1,0 +1,58 @@
+# ==============================
+# C / C++ Compiled Files
+# ==============================
+
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+*.lib
+
+# Shared/Dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+
+# Linux executables sem extensão (gerados por make/gcc)
+# Ignora tudo que for executável e não for script
+*.bin
+
+# Debug / build intermediates
+*.gch
+*.pch
+*.pdb
+*.ilk
+*.idb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Make
+*.d
+
+# Build directories (muito comum)
+build/
+Build/
+bin/
+obj/
+out/
+dist/
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+
+# Logs
+*.log
