@@ -1,58 +1,38 @@
-# ==============================
-# C / C++ Compiled Files
-# ==============================
-
-# Object files
+# ---- Arquivos de compilação Linux ----
 *.o
-*.obj
-
-# Static libraries
-*.a
-*.lib
-
-# Shared/Dynamic libraries
-*.so
-*.dll
-*.dylib
-
-# Executables
-*.exe
 *.out
+a.out
 
-# Linux executables sem extensão (gerados por make/gcc)
-# Ignora tudo que for executável e não for script
-*.bin
+# ---- Arquivos de compilação Windows ----
+*.exe
+*.obj
+*.dll
 
-# Debug / build intermediates
-*.gch
-*.pch
-*.pdb
-*.ilk
-*.idb
+# ---- Ignorar qualquer executável sem extensão (Linux)
+*
+# para ele não ignorar o .gitignore
+!.gitignore
+# para ele entrar nas pastas
+!*/
+# para pegar arquivos .c
+!*.c
+# para pegar arquivos .h
+!*.h
+# para pegar arquivos .md
+!*.md
+# para pegar arquivos .Makefile
+!Makefile
+!*.csv
+!*.json
+!*.txt
 
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-compile_commands.json
+# ---- Pastas comuns de build ----
+/bin/
+/build/
+/dist/
 
-# Make
-*.d
-
-# Build directories (muito comum)
-build/
-Build/
-bin/
-obj/
-out/
-dist/
-
-# VS Code
-.vscode/
-
-# CLion / JetBrains
-.idea/
-
-# Logs
-*.log
+# ---- Arquivos temporários de editores ----
+*~
+*.swp
+.DS_Store
+Thumbs.db
