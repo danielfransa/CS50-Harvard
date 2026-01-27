@@ -11,7 +11,16 @@ int main(){
 
   for (int i = 0; i < h; i++)
   {
-    for (int j = 0; j < i; j++)
+    for (int j = h-1; j > i; j--)
+    {
+      printf(" ");
+    }
+    for (int k = 0; k < i+1; k++)
+    {
+      printf("#");
+    }
+    printf("   ");
+    for (int l = 0; l < i + 1; l++)
     {
       printf("#");
     }
