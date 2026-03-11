@@ -16,6 +16,8 @@ a.out
 !*/
 # para pegar arquivos .c
 !*.c
+# para pegar arquivos .py
+!*.py
 # para pegar arquivos .h
 !*.h
 # para pegar arquivos .md
