@@ -29,6 +29,9 @@ a.out
 !*.csv
 !*.json
 !*.txt
+!*.html
+!*.css
+!.js
 
 # ---- Pastas comuns de build ----
 /bin/

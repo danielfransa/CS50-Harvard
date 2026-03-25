@@ -1,0 +1,24 @@
+HTML Tags used:
+h1 - titles
+p - paragraphs
+a - links
+ul - list
+li - list items
+img - image
+form - form
+input - user input
+button - button
+nav - navigation bar
+
+CSS Properties:
+color - text color
+margin - spacing
+font-family - font style
+background-color - background
+hover - button effect
+
+JavaScript:
+Used to create alerts, change background color, and validate form input.
+
+Bootstrap:
+Used navbar and button styling for responsive design.
