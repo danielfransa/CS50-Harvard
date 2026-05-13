@@ -43,3 +43,11 @@ a.out
 *.swp
 .DS_Store
 Thumbs.db
+
+# ---- venv Python ----
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.flask_session/
